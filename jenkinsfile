@@ -1,9 +1,9 @@
 pipeline {
     agent any
 
-tools {
-        nodejs 'nodejs'  // 'nodejs' is the name you gave it in the Global Tool Configuration
-    }
+//tools {
+      //  nodejs 'nodejs'  // 'nodejs' is the name you gave it in the Global Tool Configuration
+  //  }
     
     stages{
         stage('git checkout'){
